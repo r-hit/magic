@@ -1,0 +1,85 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Mulish', sans-serif;}
+
+a{color: white; text-decoration: none;}
+body{
+  background: #888888;
+}
+h1{
+  padding-top: 5px;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to bottom, #615cfd 0%, #d465ef 100%);
+}
+.simg{
+  background: #ffffff;
+  height: 55vh;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -50px;
+}
+.back{
+  height: 100%;
+  width: 100%;
+  background: url("sprice.jpg");
+  background-size: cover;
+  background-position: center;
+}
+h2{
+  margin-top: 20px;
+  margin-bottom: -35px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.table-box{
+  margin: 50px auto;
+}
+.table-row{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10px;
+  display: table;
+  width: 60%;
+  background: transparent;
+  padding: 12px 0;
+  color: #ffffff;
+  font-size: 13px;
+  box-shadow: 0 1px 4px 0 #ffffff;
+}
+.table-cell{
+  display: table-cell;
+  width: 30%;
+  text-align: center;
+  padding: 2px 0;
+  border-right: 1px solid #000000;
+  vertical-align: middle;
+  background-color: white;
+  color: #000000;
+  font-size: 18px;
+}
+.table-head{
+  background-color: #B721FF;
+}
+.table-head1{
+  background-color: #615cfd;
+}
+.last-cell{
+  border-right: none;
+}
+.first-cell{
+  text-align: left;
+  padding-left: 20px;
+}
+p1{
+  text-align: center;
+  font-size: large;
+  color: white;
+  margin-left: 20%;
+
+}
